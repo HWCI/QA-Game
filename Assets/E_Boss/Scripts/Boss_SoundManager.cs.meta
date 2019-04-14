@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 15f32a9a91d74ec4b880d84e2fa073d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SFX_Pref: {fileID: 1156664027638582, guid: 03166b02c51a3634d8b90c395dff0fcf, type: 2}
+  - BGM: {instanceID: 0}
+  - OtherBGM_clip: {instanceID: 0}
+  - GamePageBGM_clip: {instanceID: 0}
+  - correct_clip: {instanceID: 0}
+  - incorrect_clip: {instanceID: 0}
+  - TimesUp_clip: {instanceID: 0}
+  - Finish_clip: {instanceID: 0}
+  - btn_clip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

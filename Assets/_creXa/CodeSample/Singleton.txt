@@ -1,0 +1,29 @@
+#region Singleton Setup	
+    private static Object _instance;
+    public static Object Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType<Object>();
+                DontDestroyOnLoad(_instance.gameObject);
+            }
+            return _instance;
+        }
+    }
+
+    void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            if (this != _instance)
+                DestroyImmediate(gameObject);
+        }
+    }
+#endregion

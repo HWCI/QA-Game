@@ -1,0 +1,10 @@
+public delegate void OnCustomDel();
+public static event OnCustomDel OnCustom;
+
+...
+OnCustom();
+...
+
+///
+MyClass.OnCustom += Func;
+MyClass.OnCustom -= Func;
