@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Staff\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Staff\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_QA-Game-master.-268955295.00" t="ExcludeRecursive" />
+    <e p="D:\GitProject\QA-Game-master" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_creXa" t="Include">
+          <e p="CodeSample" t="Include">
+            <e p="AttributeDrawer.txt" t="Include" />
+            <e p="Editor.txt" t="Include" />
+            <e p="Listener.txt" t="Include" />
+            <e p="Singleton.txt" t="Include" />
+          </e>
+          <e p="LangBank" t="Include">
+            <e p="EN.txt" t="Include" />
+            <e p="SC.txt" t="Include" />
+            <e p="TC.txt" t="Include" />
+          </e>
+          <e p="Libraries" t="Include">
+            <e p="Mask" t="Include">
+              <e p="Editor" t="Include">
+                <e p="MaskEditor.cs" t="Include" />
+              </e>
+              <e p="Mask.cs" t="Include" />
+              <e p="Shaders 2D (Sprites)" t="Include">
+                <e p="Sprites-Alpha-Mask-WorldCoords.shader" t="Include" />
+              </e>
+              <e p="Shaders 3D" t="Include">
+                <e p="Unlit-Alpha-Mask-WorldCoords.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Outline" t="Include">
+              <e p="BoxOutline.cs" t="Include" />
+              <e p="CircleOutline.cs" t="Include" />
+              <e p="ModifiedShadow.cs" t="Include" />
+              <e p="Outline8.cs" t="Include" />
+            </e>
+            <e p="PlayerPrefsX.cs" t="Include" />
+            <e p="SimpleJSON.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="_Editor_ZBase.cs" t="Include" />
+            <e p="Attributes" t="Include">
+              <e p="_Drawer_Angle.cs" t="Include" />
+              <e p="_Drawer_FloatRange.cs" t="Include" />
+              <e p="_Drawer_IntRange.cs" t="Include" />
+              <e p="_Drawer_ReadOnly.cs" t="Include" />
+              <e p="_Drawer_Regex.cs" t="Include" />
+              <e p="AngleAttribute.cs" t="Include" />
+              <e p="FloatRange.cs" t="Include" />
+              <e p="IntRange.cs" t="Include" />
+              <e p="ReadOnly.cs" t="Include" />
+              <e p="Regex.cs" t="Include" />
+            </e>
+            <e p="Camera" t="Include">
+              <e p="CameraMovement.cs" t="Include" />
+              <e p="MouseOrbit.cs" t="Include" />
+            </e>
+            <e p="Extension" t="Include">
+              <e p="_Editor_ColorVaries2D.cs" t="Include" />
+              <e p="_Editor_PositionVaries2D.cs" t="Include" />
+              <e p="_Editor_RotationVaries2D.cs" t="Include" />
+              <e p="_Editor_ScaleVaries2D.cs" t="Include" />
+              <e p="ColorVaries2D.cs" t="Include" />
+              <e p="FrameVaries2D.cs" t="Include" />
+              <e p="PositionVaries2D.cs" t="Include" />
+              <e p="Reversable2D.cs" t="Include" />
+              <e p="RotationVaries2D.cs" t="Include" />
+              <e p="ScaleVaries2D.cs" t="Include" />
+            </e>
+            <e p="Main" t="Include">
+              <e p="_Editor_ZAudio2D.cs" t="Include" />
+              <e p="_Editor_ZDebug.cs" t="Include" />
+              <e p="_Editor_ZInput.cs" t="Include" />
+              <e p="_Editor_ZLangSys.cs" t="Include" />
+              <e p="_Editor_ZThemeSys.cs" t="Include" />
+              <e p="Components" t="Include">
+                <e p="_Editor_ZPageCtrl.cs" t="Include" />
+                <e p="_Editor_ZPopup.cs" t="Include" />
+                <e p="_Editor_ZRecord.cs" t="Include" />
+                <e p="_Editor_ZRecordList.cs" t="Include" />
+                <e p="_Editor_ZSelectable.cs" t="Include" />
+                <e p="_Editor_ZSlideSelector.cs" t="Include" />
+                <e p="_Editor_ZSwitch.cs" t="Include" />
+                <e p="ZColorPicker.cs" t="Include" />
+                <e p="ZMultiGrahpicButton.cs" t="Include" />
+                <e p="ZPageCtrl.cs" t="Include" />
+                <e p="ZPopup.cs" t="Include" />
+                <e p="ZRecord.cs" t="Include" />
+                <e p="ZRecordList.cs" t="Include" />
+                <e p="ZRecordRoot.cs" t="Include" />
+                <e p="ZSelectable.cs" t="Include" />
+                <e p="ZSelectableGroup.cs" t="Include" />
+                <e p="ZSlideSelector.cs" t="Include" />
+                <e p="ZSwitch.cs" t="Include" />
+                <e p="ZTouchable.cs" t="Include" />
+              </e>
+              <e p="EditorMenu" t="Include">
+                <e p="_Editor_Menu.cs" t="Include" />
+              </e>
+              <e p="Language" t="Include">
+                <e p="_Editor_ZImage.cs" t="Include" />
+                <e p="_Editor_ZText.cs" t="Include" />
+                <e p="ZImage.cs" t="Include" />
+                <e p="ZLangObj.cs" t="Include" />
+                <e p="ZText.cs" t="Include" />
+              </e>
+              <e p="Properties" t="Include">
+                <e p="_Drawer_NormalizedVaries.cs" t="Include" />
+                <e p="_Drawer_NVariesCtrl.cs" t="Include" />
+                <e p="_Drawer_RandomFloat.cs" t="Include" />
+                <e p="_Drawer_RandomInt.cs" t="Include" />
+                <e p="NormalizedVaries.cs" t="Include" />
+                <e p="NVariesCtrl.cs" t="Include" />
+                <e p="RandomFloat.cs" t="Include" />
+                <e p="RandomInt.cs" t="Include" />
+              </e>
+              <e p="StaticClasses" t="Include">
+                <e p="ZAjax.cs" t="Include" />
+                <e p="ZColor.cs" t="Include" />
+                <e p="ZDateTime.cs" t="Include" />
+                <e p="ZGen.cs" t="Include" />
+                <e p="ZGeo.cs" t="Include" />
+                <e p="ZMath.cs" t="Include" />
+                <e p="ZMsg.cs" t="Include" />
+                <e p="ZTween.cs" t="Include" />
+              </e>
+              <e p="SuperClasses" t="Include">
+                <e p="ExtendedMonoBehaviour.cs" t="Include" />
+                <e p="ZAnimated" t="Include">
+                  <e p="_Editor_ZAnimated.cs" t="Include" />
+                  <e p="_Editor_ZAnimated2D.cs" t="Include" />
+                  <e p="_Editor_ZAnimated2DTC.cs" t="Include" />
+                  <e p="ZAnimated.cs" t="Include" />
+                  <e p="ZAnimated2D.cs" t="Include" />
+                  <e p="ZAnimated2DTC.cs" t="Include" />
+                </e>
+                <e p="ZEditor" t="Include">
+                  <e p="ZEditor.cs" t="Include" />
+                  <e p="ZEditor4ZAnimated.cs" t="Include" />
+                  <e p="ZEditor4ZAnimated2DTC.cs" t="Include" />
+                </e>
+                <e p="ZExpirable.cs" t="Include" />
+                <e p="ZPropertyDrawer.cs" t="Include" />
+                <e p="ZResLoader.cs" t="Include" />
+                <e p="ZRoot.cs" t="Include" />
+                <e p="ZSingleton.cs" t="Include" />
+                <e p="ZStateCtrl.cs" t="Include" />
+              </e>
+              <e p="Theme" t="Include">
+                <e p="_Editor_ZThemeObj.cs" t="Include" />
+                <e p="_Editor_ZThemeObjZS.cs" t="Include" />
+                <e p="ZEditor4ZThemeObj.cs" t="Include" />
+                <e p="ZThemeObj.cs" t="Include" />
+                <e p="ZThemeObjZS.cs" t="Include" />
+              </e>
+              <e p="ZAudio2D.cs" t="Include" />
+              <e p="ZDebug.cs" t="Include" />
+              <e p="ZInput.cs" t="Include" />
+              <e p="ZLangSys.cs" t="Include" />
+              <e p="ZThemeSys.cs" t="Include" />
+              <e p="ZUICamera.cs" t="Include" />
+            </e>
+            <e p="SubBase" t="Include">
+              <e p="Graphics" t="Include">
+                <e p="_Editor_ZSCircle.cs" t="Include" />
+                <e p="_Editor_ZSCustom.cs" t="Include" />
+                <e p="_Editor_ZSCustomRegular.cs" t="Include" />
+                <e p="_Editor_ZSRadial.cs" t="Include" />
+                <e p="_Editor_ZSRectangle.cs" t="Include" />
+                <e p="_Editor_ZSStar.cs" t="Include" />
+                <e p="ZEditor4ZS.cs" t="Include" />
+                <e p="ZQuad.cs" t="Include" />
+                <e p="ZSCircle.cs" t="Include" />
+                <e p="ZSCustom.cs" t="Include" />
+                <e p="ZSCustomRegular.cs" t="Include" />
+                <e p="ZShape.cs" t="Include" />
+                <e p="ZSRadial.cs" t="Include" />
+                <e p="ZSRectangle.cs" t="Include" />
+                <e p="ZSStar.cs" t="Include" />
+              </e>
+              <e p="UNet" t="Include">
+                <e p="ZLobbyCtrl.cs" t="Include" />
+              </e>
+            </e>
+            <e p="SubSys" t="Include">
+              <e p="Effects" t="Include">
+                <e p="ZEffect2D.cs" t="Include" />
+                <e p="ZEffectSeries2D.cs" t="Include" />
+                <e p="ZEffectSys2D.cs" t="Include" />
+                <e p="ZEffectType2D.cs" t="Include" />
+                <e p="ZMovement2D.cs" t="Include" />
+                <e p="ZMovementType2D.cs" t="Include" />
+                <e p="ZSFx2D.cs" t="Include" />
+              </e>
+              <e p="Track" t="Include">
+                <e p="_Editor_ZTBezier.cs" t="Include" />
+                <e p="_Editor_ZTSpiral.cs" t="Include" />
+                <e p="ZFollowTrack.cs" t="Include" />
+                <e p="ZTBezier.cs" t="Include" />
+                <e p="ZTrack.cs" t="Include" />
+                <e p="ZTSpiral.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ZBase.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="AlphaMask.shader" t="Include" />
+            <e p="CharShader.shader" t="Include" />
+            <e p="creXaAlpha.shader" t="Include" />
+            <e p="ghost_diffuse.shader" t="Include" />
+            <e p="Hologram.shader" t="Include" />
+            <e p="Outline.shader" t="Include" />
+            <e p="UnlitCutoutShadow.shader" t="Include" />
+            <e p="UnlitShadow.shader" t="Include" />
+          </e>
+          <e p="TESTING.cs" t="Include" />
+        </e>
+        <e p="E_Boss" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MyEnergyManagerEditorAlternative.cs" t="Include" />
+            <e p="MyMissionManagerEditorAlternative.cs" t="Include" />
+            <e p="MyQuestionDataManagerEditorAlternative.cs" t="Include" />
+            <e p="MyTimeManagerEditorAlternative.cs" t="Include" />
+          </e>
+          <e p="Holland_Test" t="Include">
+            <e p="Plugins" t="Include">
+              <e p="Pixelplacement" t="Include">
+                <e p="iTween" t="Include">
+                  <e p="iTween.cs" t="Include" />
+                  <e p="ReadMe!" t="Include">
+                    <e p="ReadMe!.txt" t="Include" />
+                  </e>
+                  <e p="Sample" t="Include">
+                    <e p="MoveSample.cs" t="Include" />
+                    <e p="RotateSample.cs" t="Include" />
+                    <e p="SampleInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="RadarChart" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="RadarPolygon.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ToJ Assets" t="Include">
+                <e p="UI Text Effects" t="Include">
+                  <e p="BetterOutline.cs" t="Include" />
+                  <e p="Bevel.cs" t="Include" />
+                  <e p="CharacterSpacing.cs" t="Include" />
+                  <e p="CurveEffect.cs" t="Include" />
+                  <e p="DepthEffect.cs" t="Include" />
+                  <e p="Fancy Effects" t="Include">
+                    <e p="Fancy-Text-Fallback.shader" t="Include" />
+                    <e p="Fancy-Text.shader" t="Include" />
+                    <e p="InnerBevel.cs" t="Include" />
+                    <e p="InnerOutline.cs" t="Include" />
+                    <e p="OverlayTexture.cs" t="Include" />
+                  </e>
+                  <e p="GradientColor.cs" t="Include" />
+                  <e p="LimitVisibleCharacters.cs" t="Include" />
+                  <e p="Samples" t="Include">
+                    <e p="Fonts" t="Include">
+                      <e p="Inknut-Antiqua" t="Include">
+                        <e p="OFL.txt" t="Include" />
+                      </e>
+                      <e p="rabbid-highway-sign-ii" t="Include">
+                        <e p="SIL Open Font License.txt" t="Include" />
+                      </e>
+                      <e p="Ranchers-v1" t="Include">
+                        <e p="OFL.txt" t="Include" />
+                      </e>
+                      <e p="Sniglet v2" t="Include">
+                        <e p="OFL.txt" t="Include" />
+                      </e>
+                    </e>
+                    <e p="Scripts" t="Include">
+                      <e p="Typewriter.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="SkewEffect.cs" t="Include" />
+                  <e p="SoftShadow.cs" t="Include" />
+                  <e p="ToJOutline.cs" t="Include" />
+                  <e p="ToJShadow.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Boss_CountDownSFX.cs" t="Include" />
+            <e p="Boss_energyManager.cs" t="Include" />
+            <e p="Boss_GameManager.cs" t="Include" />
+            <e p="Boss_MissionManager.cs" t="Include" />
+            <e p="Boss_QuestionControl.cs" t="Include" />
+            <e p="Boss_QuestionDataManager.cs" t="Include" />
+            <e p="Boss_SoundManager.cs" t="Include" />
+            <e p="Boss_StartCountdownSFX.cs" t="Include" />
+            <e p="Boss_TimeManager.cs" t="Include" />
+            <e p="Boss_UIManager.cs" t="Include" />
+            <e p="mute.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="ToJ Assets" t="Include">
+            <e p="UI Text Effects" t="Include">
+              <e p="BetterOutline.cs" t="Include" />
+              <e p="Bevel.cs" t="Include" />
+              <e p="CharacterSpacing.cs" t="Include" />
+              <e p="CurveEffect.cs" t="Include" />
+              <e p="DepthEffect.cs" t="Include" />
+              <e p="Fancy Effects" t="Include">
+                <e p="Fancy-Text-Fallback.shader" t="Include" />
+                <e p="Fancy-Text.shader" t="Include" />
+                <e p="InnerBevel.cs" t="Include" />
+                <e p="InnerOutline.cs" t="Include" />
+                <e p="OverlayTexture.cs" t="Include" />
+              </e>
+              <e p="GradientColor.cs" t="Include" />
+              <e p="LimitVisibleCharacters.cs" t="Include" />
+              <e p="Samples" t="Include">
+                <e p="Fonts" t="Include">
+                  <e p="Inknut-Antiqua" t="Include">
+                    <e p="OFL.txt" t="Include" />
+                  </e>
+                  <e p="rabbid-highway-sign-ii" t="Include">
+                    <e p="SIL Open Font License.txt" t="Include" />
+                  </e>
+                  <e p="Ranchers-v1" t="Include">
+                    <e p="OFL.txt" t="Include" />
+                  </e>
+                  <e p="Sniglet v2" t="Include">
+                    <e p="OFL.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="Typewriter.cs" t="Include" />
+                </e>
+              </e>
+              <e p="SkewEffect.cs" t="Include" />
+              <e p="SoftShadow.cs" t="Include" />
+              <e p="ToJOutline.cs" t="Include" />
+              <e p="ToJShadow.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StaffManager.cs" t="Include" />
+        <e p="WorkManager.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="QA-Game-master.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
