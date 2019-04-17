@@ -12,6 +12,9 @@ public class Worker : MonoBehaviour
         public int A_Ability;
         public int P_Ability;
         public int T_Ability;
+        public Text D_Text;
+        public Text P_Text;
+        public Text T_Text;
 
         public Worker(Sprite icon,int A, int P, int T)
         {
@@ -25,6 +28,14 @@ public class Worker : MonoBehaviour
         {
             collider.gameObject.GetComponentInChildren<Collider2D>();
             
+        }
+
+        public void Refresh()
+        {
+            photo.sprite = face;
+                        D_Text.text = A_Ability.ToString();
+                        P_Text.text = P_Ability.ToString();
+                        T_Text.text = T_Ability.ToString();
         }
         
         

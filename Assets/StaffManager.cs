@@ -23,6 +23,7 @@ public class StaffManager : MonoBehaviour
          uiworker[i].A_Ability = A;
          uiworker[i].P_Ability = P;
          uiworker[i].T_Ability = T;
+         uiworker[i].Refresh();
          i++;
     }
 }

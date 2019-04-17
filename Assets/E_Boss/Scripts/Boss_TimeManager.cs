@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,10 +24,10 @@ public class Boss_TimeManager : MonoBehaviour {
     public void ReSet()
     {
         canUpdate = false;
-        Timer = MaxTime;
+        Timer = 0;
         TimerChange();
     }
-    private void Update()
+    /*private void Update()
     {
         if (canUpdate&& Timer>0)
         {
@@ -45,19 +46,24 @@ public class Boss_TimeManager : MonoBehaviour {
             }
         }
 
-    }
+    }*/
     public void TimerChange()
     {
         timeBar.GetComponent<Image>().fillAmount = Timer / MaxTime;
         int minutes = Mathf.FloorToInt(Timer / 60F);
         int seconds = Mathf.FloorToInt(Timer - minutes * 60);
         string niceTime = string.Format("{0:00}:{1:00}", minutes, seconds);
-        timeText.text = niceTime;
+        timeText.text = "Week: " + Timer + "/4";
         if (Timer / MaxTime * 100 <= changeToRedAt)
             timeBar.GetComponent<Image>().sprite = time_red;
         else if (Timer / MaxTime * 100 > changeToRedAt && Timer / MaxTime * 100 <= changeToOrangeAt)
             timeBar.GetComponent<Image>().sprite = time_orange;
         else
             timeBar.GetComponent<Image>().sprite = time_bule;
+    }
+
+    public void NextWeek()
+    {
+        
     }
 }

@@ -175,16 +175,16 @@ public class Boss_GameManager : MonoBehaviour {
         if (isOpen)
         {
             //reStart
-            curGameStatus = InvestigativeGameStatus.Ready;
-            reStart();
+            //curGameStatus = InvestigativeGameStatus.Ready;
+            //reStart();
             
             //TurnOn_GamePage_Start();
             ShowGamePage_Target(true);
-            Boss_SoundManager.instance.SwitchBGMClip(1);
+            //Boss_SoundManager.instance.SwitchBGMClip(1);
         }
         else
         {
-            Boss_SoundManager.instance.SwitchBGMClip(0);
+            //Boss_SoundManager.instance.SwitchBGMClip(0);
         }
 
     }
@@ -238,7 +238,7 @@ public class Boss_GameManager : MonoBehaviour {
     void TurnOff_GamePage_Start()
     {
         curGameStatus = InvestigativeGameStatus.Started;
-        uiManager.GamePage_Start.GetComponent<Animator>().ResetTrigger("TurnOn");
+        //uiManager.GamePage_Start.GetComponent<Animator>().ResetTrigger("TurnOn");
         uiManager.GamePage_Start.SetActive(false);
 
         //Boss_MissionManager.instance.Check();
