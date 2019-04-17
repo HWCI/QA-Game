@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class StaffManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public List<Worker> workers;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
         
     }

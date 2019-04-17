@@ -109,7 +109,7 @@ public class Boss_GameManager : MonoBehaviour {
 
     public void reStart()
     {
-        
+        uiManager.GamePage_Target.SetActive(true);
     }
 
     void UpdateQusetion()
@@ -224,11 +224,6 @@ public class Boss_GameManager : MonoBehaviour {
     public void TurnOn_GamePage_Start()
     {
         
-        float Temp = Mathf.Pow(CountdownTime/3, -1);
-        uiManager.GamePage_Start.SetActive(true);
-        uiManager.GamePage_Start.GetComponent<Animator>().SetFloat("StartSpeed", Temp);
-        uiManager.GamePage_Start.GetComponent<Animator>().SetTrigger("TurnOn");
-        Invoke("TurnOff_GamePage_Start", CountdownTime);
     }
     void TurnOff_GamePage_Start()
     {
@@ -236,7 +231,12 @@ public class Boss_GameManager : MonoBehaviour {
         uiManager.GamePage_Start.GetComponent<Animator>().ResetTrigger("TurnOn");
         uiManager.GamePage_Start.SetActive(false);
 
-        Boss_MissionManager.instance.Check();
+        //Boss_MissionManager.instance.Check();
+    }
+
+    void StartGame()
+    {
+        
     }
 
     public void ShowGameEnd_TimeUp(bool isOpen)

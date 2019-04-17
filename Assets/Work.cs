@@ -19,11 +19,12 @@ public class Work : MonoBehaviour
 
     private void Start()
     {
-        text = gameObject.GetComponentInChildren<TextMeshProUGUI>();
     }
 
     private void OnEnable()
     {
+        text = gameObject.GetComponentInChildren<TextMeshProUGUI>();
+
         int ran = Random.Range(0, 4);
         type = (WorkType) ran;
         text.text = type.ToString();
