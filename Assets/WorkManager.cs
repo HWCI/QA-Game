@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class WorkManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public List<Work> works;
+    public GameObject DesignJob;
+    public GameObject PrgmJob;
+    public GameObject TestJob;
+    public int DJ;
+    public int TJ;
+    public int PJ;
 }

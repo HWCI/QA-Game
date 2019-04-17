@@ -31,7 +31,8 @@ public class Candid : MonoBehaviour
 
     public void Selected()
     {
-        StaffManager.instance.AddWorker(new Worker(photo.sprite,A_value,P_value,T_value));
+        total.picked();
+        StaffManager.instance.SetWorkers(photo.sprite,A_value,P_value,T_value);
         this.gameObject.SetActive(false);
     }
 }

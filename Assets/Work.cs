@@ -5,11 +5,9 @@ using UnityEngine;
 
 public enum WorkType
 {
-    UI = 0,
-    Art = 1,
-    FrontEnd = 2,
-    BackEnd = 3,
-    Testing = 4
+    Design = 0,
+    Programming = 1,
+    Testing = 2
 }
 public class Work : MonoBehaviour
 {
