@@ -2,9 +2,662 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23825485-5102-4255-95b0-8fe4e409eadd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss_wave_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss_wave_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Work.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Work.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/AttributeDrawer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/AttributeDrawer.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/Editor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/Editor.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/Listener.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/Listener.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/Singleton.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/CodeSample/Singleton.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Data/ThemeSets.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Data/ThemeSets.dat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/LangBank.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/LangBank/EN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/LangBank/EN.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/LangBank/SC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/LangBank/SC.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/LangBank/TC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/LangBank/TC.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Editor/MaskEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Editor/MaskEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Mask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Mask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Shaders 2D (Sprites).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Shaders 2D (Sprites)/Sprites-Alpha-Mask-WorldCoords.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Shaders 2D (Sprites)/Sprites-Alpha-Mask-WorldCoords.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Shaders 3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Shaders 3D/Unlit-Alpha-Mask-WorldCoords.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Mask/Shaders 3D/Unlit-Alpha-Mask-WorldCoords.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/BoxOutline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/BoxOutline.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/CircleOutline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/CircleOutline.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/ModifiedShadow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/ModifiedShadow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/Outline8.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/Outline/Outline8.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/PlayerPrefsX.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/PlayerPrefsX.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/SimpleJSON.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Libraries/SimpleJSON.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/AngleAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/AngleAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/FloatRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/FloatRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/IntRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/IntRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/ReadOnly.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/ReadOnly.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/Regex.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/Regex.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_Angle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_Angle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_FloatRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_FloatRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_IntRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_IntRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_ReadOnly.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_ReadOnly.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_Regex.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Attributes/_Drawer_Regex.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Camera.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Camera/CameraMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Camera/CameraMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Camera/Main Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Camera/Main Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Camera/MouseOrbit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Camera/MouseOrbit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/ColorVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/ColorVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/FrameVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/FrameVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/PositionVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/PositionVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/Reversable2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/Reversable2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/RotationVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/RotationVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/ScaleVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/ScaleVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_ColorVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_ColorVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_PositionVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_PositionVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_RotationVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_RotationVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_ScaleVaries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Extension/_Editor_ScaleVaries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZColorPicker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZColorPicker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZMultiGrahpicButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZMultiGrahpicButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZPageCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZPageCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZPopup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZPopup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZRecord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZRecord.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZRecordList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZRecordList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZRecordRoot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZRecordRoot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSelectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSelectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSelectableGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSelectableGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSlideSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSlideSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZTouchable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/ZTouchable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZPageCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZPageCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZPopup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZPopup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZRecord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZRecord.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZRecordList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZRecordList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZSelectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZSelectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZSlideSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZSlideSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Components/_Editor_ZSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/EditorMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/EditorMenu/_Editor_Menu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/EditorMenu/_Editor_Menu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/ZImage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/ZImage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/ZLangObj.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/ZLangObj.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/ZText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/ZText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/_Editor_ZImage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/_Editor_ZImage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/_Editor_ZText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Language/_Editor_ZText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/NVariesCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/NVariesCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/NormalizedVaries.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/NormalizedVaries.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/RandomFloat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/RandomFloat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/RandomInt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/RandomInt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_NVariesCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_NVariesCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_NormalizedVaries.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_NormalizedVaries.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_RandomFloat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_RandomFloat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_RandomInt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Properties/_Drawer_RandomInt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZAjax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZAjax.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZDateTime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZDateTime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZGen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZGen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZGeo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZGeo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZMath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZMath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZMsg.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZMsg.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZTween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/StaticClasses/ZTween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ExtendedMonoBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ExtendedMonoBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/ZAnimated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/ZAnimated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/ZAnimated2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/ZAnimated2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/ZAnimated2DTC.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/ZAnimated2DTC.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/_Editor_ZAnimated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/_Editor_ZAnimated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/_Editor_ZAnimated2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/_Editor_ZAnimated2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/_Editor_ZAnimated2DTC.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZAnimated/_Editor_ZAnimated2DTC.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZEditor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZEditor/ZEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZEditor/ZEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZEditor/ZEditor4ZAnimated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZEditor/ZEditor4ZAnimated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZEditor/ZEditor4ZAnimated2DTC.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZEditor/ZEditor4ZAnimated2DTC.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZExpirable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZExpirable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZPropertyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZPropertyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZResLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZResLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZRoot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZRoot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZSingleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZSingleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZStateCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/SuperClasses/ZStateCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/ZEditor4ZThemeObj.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/ZEditor4ZThemeObj.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/ZThemeObj.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/ZThemeObj.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/ZThemeObjZS.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/ZThemeObjZS.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/_Editor_ZThemeObj.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/_Editor_ZThemeObj.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/_Editor_ZThemeObjZS.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/Theme/_Editor_ZThemeObjZS.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZAudio2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZAudio2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZDebug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZDebug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZLangSys.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZLangSys.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZThemeSys.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZThemeSys.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZUICamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/ZUICamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZAudio2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZAudio2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZDebug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZDebug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZLangSys.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZLangSys.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZThemeSys.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/Main/_Editor_ZThemeSys.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZEditor4ZS.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZEditor4ZS.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZQuad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZQuad.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSCircle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSCircle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSCustom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSCustom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSCustomRegular.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSCustomRegular.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSRadial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSRadial.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSRectangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSRectangle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSStar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZSStar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/ZShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSCircle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSCircle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSCustom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSCustom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSCustomRegular.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSCustomRegular.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSRadial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSRadial.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSRectangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSRectangle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSStar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/Graphics/_Editor_ZSStar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/UNet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/UNet/ZLobbyCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubBase/UNet/ZLobbyCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffect2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffect2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffectSeries2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffectSeries2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffectSys2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffectSys2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffectType2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZEffectType2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZMovement2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZMovement2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZMovementType2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZMovementType2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZSFx2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Effects/ZSFx2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZFollowTrack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZFollowTrack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZTBezier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZTBezier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZTSpiral.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZTSpiral.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZTrack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/ZTrack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/_Editor_ZTBezier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/_Editor_ZTBezier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/_Editor_ZTSpiral.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/SubSys/Track/_Editor_ZTSpiral.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/ZBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/ZBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/_Editor_ZBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Scripts/_Editor_ZBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/AlphaMask.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/AlphaMask.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/CharShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/CharShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/Hologram.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/Hologram.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/UnlitCutoutShadow.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/UnlitCutoutShadow.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/UnlitShadow.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/UnlitShadow.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/creXaAlpha.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/creXaAlpha.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/ghost_diffuse.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Shaders/ghost_diffuse.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/TESTING.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/TESTING.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Colorpanel/panel5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Editor/Dial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Editor/Dial.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Editor/DialButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Editor/DialButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/1-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/1-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/10-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/10-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/100-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/100-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/101-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/101-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/102-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/102-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/103-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/103-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/104-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/104-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/105-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/105-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/106-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/106-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/107-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/107-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/108-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/108-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/109-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/109-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/11-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/11-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/110-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/110-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/111-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/111-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/112-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/112-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/113-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/113-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/114-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/114-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/115-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/115-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/116-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/116-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/117-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/117-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/118-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/118-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/119-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/119-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/12-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/12-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/120-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/120-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/121-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/121-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/122-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/122-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/123-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/123-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/124-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/124-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/125-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/125-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/126-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/126-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/127-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/127-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/128-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/128-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/129-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/129-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/13-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/13-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/130-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/130-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/131-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/131-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/132-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/132-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/133-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/133-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/134-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/134-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/135-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/135-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/136-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/136-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/137-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/137-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/138-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/138-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/139-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/139-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/14-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/14-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/15-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/15-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/16-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/16-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/17-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/17-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/18-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/18-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/19-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/19-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/2-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/20-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/20-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/21-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/21-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/22-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/22-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/23-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/23-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/24-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/24-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/25-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/25-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/26-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/26-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/27-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/27-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/28-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/28-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/29-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/29-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/3-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/30-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/30-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/31-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/31-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/32-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/32-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/33-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/33-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/34-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/34-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/35-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/35-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/36-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/36-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/37-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/37-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/38-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/38-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/39-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/39-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/4-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/4-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/40-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/40-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/41-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/41-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/42-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/42-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/43-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/43-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/44-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/44-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/45-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/45-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/46-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/46-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/47-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/47-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/48-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/48-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/49-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/49-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/5-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/5-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/50-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/50-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/51-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/51-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/52-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/52-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/53-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/53-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/54-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/54-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/55-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/55-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/56-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/56-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/57-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/57-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/58-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/58-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/59-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/59-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/6-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/6-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/60-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/60-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/61-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/61-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/62-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/62-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/63-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/63-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/64-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/64-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/65-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/65-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/66-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/66-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/67-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/67-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/68-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/68-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/69-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/69-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/7-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/7-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/70-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/70-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/71-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/71-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/72-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/72-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/73-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/73-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/74-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/74-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/75-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/75-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/76-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/76-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/77-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/77-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/78-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/78-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/79-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/79-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/8-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/8-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/80-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/80-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/81-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/81-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/82-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/82-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/83-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/83-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/84-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/84-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/85-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/85-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/86-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/86-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/87-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/87-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/88-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/88-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/89-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/89-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/9-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/9-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/90-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/90-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/91-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/91-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/92-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/92-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/93-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/93-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/94-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/94-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/95-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/95-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/96-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/96-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/97-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/97-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/98-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/98-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/99-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/99-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Icons/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/LoadingB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/LoadingB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/LoadingC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/LoadingC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/MaskOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/MaskOut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/picker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/picker.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/pixel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/Textures/pixel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/_Logo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/_Logo/withslogan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_creXa/_Logo/withslogan.png.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,68 +666,148 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-990">
+            <state relative-caret-position="478">
+              <caret line="180" column="38" lean-forward="true" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
               <folding>
-                <marker date="1542563272386" expanded="false" signature="6:135" ph="..." />
-                <marker date="1542563272386" expanded="true" signature="183:9490" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="570:1137" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="758:835" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="1178:1297" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="1844:1926" ph="/* Score System ... */" />
-                <marker date="1542563272386" expanded="true" signature="2300:2667" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="2420:2470" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="2540:2594" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="2607:2661" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="2699:2763" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="2790:3155" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="3182:3750" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="3240:3272" ph="/* Update ... */" />
-                <marker date="1542563272386" expanded="true" signature="3318:3554" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="3581:3744" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="3789:4153" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="3824:3898" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="3933:4009" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="4071:4147" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="4218:4365" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="4412:4553" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="4599:4738" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="4789:4855" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="4905:5400" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5031:5303" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5316:5393" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5451:5710" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5531:5610" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5623:5704" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5760:6009" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5839:5910" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="5923:6002" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="6045:6112" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="6153:6502" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="6536:6785" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="6834:7224" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="6860:7126" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="7139:7217" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="7278:7663" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="7304:7567" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="7580:7657" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="7716:8261" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="7793:7876" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="7907:7989" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="8020:8103" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="8134:8218" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="8312:8798" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="8379:8700" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="8713:8791" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="8827:8887" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="8951:9148" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="9006:9073" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="9086:9142" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="9176:9488" ph="{...}" />
-                <marker date="1542563272386" expanded="true" signature="9208:9351" ph="/* Application.Quit() does not work in the editor so ... */" />
+                <marker date="1555432320325" expanded="false" signature="6:135" ph="..." />
+                <marker date="1555432320325" expanded="true" signature="183:8610" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="570:1137" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="758:835" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="1178:1297" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="1844:1926" ph="/* Score System ... */" />
+                <marker date="1555432320325" expanded="true" signature="2300:2667" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2420:2470" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2540:2594" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2607:2661" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2699:2763" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2790:2811" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2838:2868" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2907:3271" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="2942:3016" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="3051:3127" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="3189:3265" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="3336:3483" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="3530:3671" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="3717:3856" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="3907:3973" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4023:4520" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4151:4423" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4436:4513" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4571:4830" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4651:4730" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4743:4824" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4880:5129" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="4959:5030" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="5043:5122" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="5165:5232" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="5273:5622" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="5656:5905" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="5954:6344" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="5980:6246" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="6259:6337" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="6398:6783" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="6424:6687" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="6700:6777" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="6836:7381" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="6913:6996" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="7027:7109" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="7140:7223" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="7254:7338" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="7432:7918" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="7499:7820" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="7833:7911" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="7947:8007" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="8071:8268" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="8126:8193" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="8206:8262" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="8296:8608" ph="{...}" />
+                <marker date="1555432320325" expanded="true" signature="8328:8471" ph="/* Application.Quit() does not work in the editor so ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_UIManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542183592664" expanded="false" signature="6:135" ph="..." />
+                <marker date="1542183592664" expanded="true" signature="181:793" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_SoundManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1542183592609" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542183592609" expanded="true" signature="127:4481" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2000:2198" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2237:2450" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2264:2349" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2362:2444" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2480:2571" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2603:2698" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2728:2819" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2848:2937" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="2968:3058" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3087:3170" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3194:3267" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3293:3376" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3403:3488" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3517:3608" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3678:4296" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3790:3944" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="3957:4046" ph="{...}" />
+                <marker date="1542183592609" expanded="true" signature="4338:4477" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Work.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <marker date="1555429791065" expanded="false" signature="6:91" ph="..." />
+                <marker date="1555429791065" expanded="true" signature="113:193" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="227:909" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="344:425" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="454:572" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="612:730" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="679:724" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="759:780" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="806:827" ph="{...}" />
+                <marker date="1555429791065" expanded="true" signature="886:907" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_TimeManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <marker date="1542183592637" expanded="false" signature="6:100" ph="..." />
+                <marker date="1542183592637" expanded="true" signature="147:2051" ph="{...}" />
+                <marker date="1542183592637" expanded="true" signature="612:699" ph="{...}" />
+                <marker date="1542183592637" expanded="true" signature="725:1361" ph="{...}" />
+                <marker date="1542183592637" expanded="true" signature="764:1354" ph="{...}" />
+                <marker date="1542183592637" expanded="true" signature="866:1344" ph="{...}" />
+                <marker date="1542183592637" expanded="true" signature="1391:2049" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,11 +819,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Work.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Work.cs" />
+        <option value="$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_GameManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="72" />
+    <option name="y" value="36" />
     <option name="width" value="1440" />
     <option name="height" value="999" />
   </component>
@@ -100,15 +845,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,11 +900,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555263922799</updated>
       <workItem from="1555263937125" duration="1179000" />
+      <workItem from="1555423738006" duration="5053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1179000" />
+    <option name="totallyTimeSpent" value="6232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,22 +917,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="72" y="36" width="1440" height="999" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34347826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -194,13 +931,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,66 +965,138 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_TimeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <marker date="1542183592637" expanded="false" signature="6:100" ph="..." />
+            <marker date="1542183592637" expanded="true" signature="147:2051" ph="{...}" />
+            <marker date="1542183592637" expanded="true" signature="612:699" ph="{...}" />
+            <marker date="1542183592637" expanded="true" signature="725:1361" ph="{...}" />
+            <marker date="1542183592637" expanded="true" signature="764:1354" ph="{...}" />
+            <marker date="1542183592637" expanded="true" signature="866:1344" ph="{...}" />
+            <marker date="1542183592637" expanded="true" signature="1391:2049" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_SoundManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1542183592609" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542183592609" expanded="true" signature="127:4481" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2000:2198" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2237:2450" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2264:2349" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2362:2444" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2480:2571" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2603:2698" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2728:2819" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2848:2937" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="2968:3058" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3087:3170" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3194:3267" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3293:3376" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3403:3488" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3517:3608" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3678:4296" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3790:3944" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="3957:4046" ph="{...}" />
+            <marker date="1542183592609" expanded="true" signature="4338:4477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Work.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <marker date="1555429791065" expanded="false" signature="6:91" ph="..." />
+            <marker date="1555429791065" expanded="true" signature="113:193" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="227:909" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="344:425" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="454:572" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="612:730" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="679:724" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="759:780" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="806:827" ph="{...}" />
+            <marker date="1555429791065" expanded="true" signature="886:907" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542183592664" expanded="false" signature="6:135" ph="..." />
+            <marker date="1542183592664" expanded="true" signature="181:793" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/E_Boss/Scripts/Boss_GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
+        <state relative-caret-position="478">
+          <caret line="180" column="38" lean-forward="true" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
           <folding>
-            <marker date="1542563272386" expanded="false" signature="6:135" ph="..." />
-            <marker date="1542563272386" expanded="true" signature="183:9490" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="570:1137" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="758:835" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="1178:1297" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="1844:1926" ph="/* Score System ... */" />
-            <marker date="1542563272386" expanded="true" signature="2300:2667" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="2420:2470" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="2540:2594" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="2607:2661" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="2699:2763" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="2790:3155" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="3182:3750" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="3240:3272" ph="/* Update ... */" />
-            <marker date="1542563272386" expanded="true" signature="3318:3554" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="3581:3744" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="3789:4153" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="3824:3898" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="3933:4009" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="4071:4147" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="4218:4365" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="4412:4553" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="4599:4738" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="4789:4855" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="4905:5400" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5031:5303" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5316:5393" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5451:5710" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5531:5610" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5623:5704" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5760:6009" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5839:5910" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="5923:6002" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="6045:6112" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="6153:6502" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="6536:6785" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="6834:7224" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="6860:7126" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="7139:7217" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="7278:7663" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="7304:7567" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="7580:7657" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="7716:8261" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="7793:7876" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="7907:7989" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="8020:8103" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="8134:8218" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="8312:8798" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="8379:8700" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="8713:8791" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="8827:8887" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="8951:9148" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="9006:9073" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="9086:9142" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="9176:9488" ph="{...}" />
-            <marker date="1542563272386" expanded="true" signature="9208:9351" ph="/* Application.Quit() does not work in the editor so ... */" />
+            <marker date="1555432320325" expanded="false" signature="6:135" ph="..." />
+            <marker date="1555432320325" expanded="true" signature="183:8610" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="570:1137" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="758:835" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="1178:1297" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="1844:1926" ph="/* Score System ... */" />
+            <marker date="1555432320325" expanded="true" signature="2300:2667" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2420:2470" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2540:2594" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2607:2661" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2699:2763" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2790:2811" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2838:2868" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2907:3271" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="2942:3016" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="3051:3127" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="3189:3265" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="3336:3483" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="3530:3671" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="3717:3856" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="3907:3973" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4023:4520" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4151:4423" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4436:4513" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4571:4830" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4651:4730" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4743:4824" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4880:5129" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="4959:5030" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="5043:5122" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="5165:5232" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="5273:5622" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="5656:5905" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="5954:6344" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="5980:6246" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="6259:6337" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="6398:6783" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="6424:6687" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="6700:6777" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="6836:7381" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="6913:6996" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="7027:7109" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="7140:7223" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="7254:7338" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="7432:7918" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="7499:7820" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="7833:7911" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="7947:8007" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="8071:8268" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="8126:8193" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="8206:8262" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="8296:8608" ph="{...}" />
+            <marker date="1555432320325" expanded="true" signature="8328:8471" ph="/* Application.Quit() does not work in the editor so ... */" />
           </folding>
         </state>
       </provider>

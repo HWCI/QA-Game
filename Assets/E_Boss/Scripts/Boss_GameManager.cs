@@ -109,35 +109,13 @@ public class Boss_GameManager : MonoBehaviour {
 
     public void reStart()
     {
-        option.GetComponent<Button>().interactable = true;
-        Boss_QuestionControl.instance.gameObject.SetActive(true);
-        QDManager.QusetionGenerator();
-
-        Boss_energyManager.instance.energyReset();
-        Boss_MissionManager.instance.MissionReset();
-        TM.ReSet();
-        UpdateQusetion();
-        energyManager.EnergyChange();
+        
     }
 
     void UpdateQusetion()
     {
-        //Reset
-        ShowTalkingBox(0);
-        //Update
-        //AnsweredNo++;
-        if (QDManager.PlayerQusetion.Count>0)
-        {
-            int Temp = Random.Range(0, QDManager.PlayerQusetion.Count);
-            QC.UpdateQuestionData(QDManager.PlayerQusetion[Temp]);
-            QDManager.PlayerQusetion.Remove(QDManager.PlayerQusetion[Temp]);
-        }
-        else//Finish Game.
-        {
-            Boss_SoundManager.instance.PlayFinish();
-            Boss_MissionManager.instance.FinalUI();
-            ShowGameEnd_Finish(true);
-        }
+        
+        
     }
 
     public void ShowTalkingBox(int s)
@@ -193,7 +171,7 @@ public class Boss_GameManager : MonoBehaviour {
     public void ShowGamePage_Canvas(bool isOpen)
     {
         uiManager.GamePage_Canvas.SetActive(isOpen);
-        uiManager.Canvas_CV.SetActive(isOpen);
+        //uiManager.Canvas_CV.SetActive(isOpen);
         if (isOpen)
         {
             //reStart

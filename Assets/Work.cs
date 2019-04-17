@@ -19,7 +19,7 @@ public class Work : MonoBehaviour
 
     private void Start()
     {
-        text = gameObject.GetComponent<TextMeshProUGUI>();
+        text = gameObject.GetComponentInChildren<TextMeshProUGUI>();
     }
 
     private void OnEnable()
