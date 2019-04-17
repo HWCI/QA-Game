@@ -221,9 +221,19 @@ public class Boss_GameManager : MonoBehaviour {
         uiManager.GamePage_TargetBtn.SetActive(true);
     }
 
+    public void ShowGamePage_Staff(bool _show)
+    {
+        uiManager.GamePage_Staff.SetActive(_show);
+    }
+
+    public void ShowGamePage_Jobs(bool _show)
+    {
+        uiManager.GamePage_Jobs.SetActive(_show);
+    }
     public void TurnOn_GamePage_Start()
     {
-        
+        ShowGamePage_Staff(true);
+        ShowMainPage(false);
     }
     void TurnOff_GamePage_Start()
     {

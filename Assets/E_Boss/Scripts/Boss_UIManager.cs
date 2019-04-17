@@ -15,6 +15,8 @@ public class Boss_UIManager : MonoBehaviour {
     public GameObject GamePage_TimesUp;
     public GameObject GamePage_GameOver;
     public GameObject GamePage_ExitBox;
+    public GameObject GamePage_Staff;
+    public GameObject GamePage_Jobs;
     [Space(15)]
     public Text GameOverText;
     [Space(15)]
