@@ -10,7 +10,7 @@ public class Boss_QuestionControl : MonoBehaviour, IDragHandler, IPointerDownHan
     public Text[] AnswerText;
     [HideInInspector]
     public static Boss_QuestionControl instance = null;
-    [HideInInspector]
+    //[HideInInspector]
     [SerializeField]
     GameObject rootCanvas = null, originalCanvas;
 

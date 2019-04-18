@@ -25,4 +25,9 @@ public class Boss_UIManager : MonoBehaviour {
     [Space(15)]
     public GameObject[] talkingbox;
 
+    public Text TimeScore;
+    public Text TimePenalty;
+    public Text TimeTotal;
+    public Text Score;
+
 }

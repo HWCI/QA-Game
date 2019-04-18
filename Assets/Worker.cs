@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -36,6 +37,45 @@ public class Worker : MonoBehaviour
                         D_Text.text = A_Ability.ToString();
                         P_Text.text = P_Ability.ToString();
                         T_Text.text = T_Ability.ToString();
+        }
+
+        public void Work()
+        {
+            switch (currentWorks.ToList().Count)
+            {
+                case 1:
+                {
+                    foreach (var work in currentWorks.ToList())
+                    {
+                        if(work.type == WorkType.Design)
+                            work.WorkedOn(A_Ability*Boss_GameManager.instance.workmultiplier);
+                        if(work.type == WorkType.Programming)
+                            work.WorkedOn(P_Ability*Boss_GameManager.instance.workmultiplier);
+                        if(work.type == WorkType.Testing)
+                            work.WorkedOn(T_Ability*Boss_GameManager.instance.workmultiplier);
+                    }
+
+                    break;
+                }
+                case 2:
+                {
+                    foreach (var work in currentWorks.ToList())
+                    {
+                        if(work.type == WorkType.Design)
+                            work.WorkedOn(A_Ability*Boss_GameManager.instance.workmultiplier*0.65f);
+                        if(work.type == WorkType.Programming)
+                            work.WorkedOn(P_Ability*Boss_GameManager.instance.workmultiplier*0.65f);
+                        if(work.type == WorkType.Testing)
+                            work.WorkedOn(T_Ability*Boss_GameManager.instance.workmultiplier*0.65f);
+                    }
+
+                    break;
+                }
+                default:
+                {
+                    break;
+                }
+            }
         }
         
         

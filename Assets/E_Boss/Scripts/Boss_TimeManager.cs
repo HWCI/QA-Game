@@ -53,7 +53,7 @@ public class Boss_TimeManager : MonoBehaviour {
         int minutes = Mathf.FloorToInt(Timer / 60F);
         int seconds = Mathf.FloorToInt(Timer - minutes * 60);
         string niceTime = string.Format("{0:00}:{1:00}", minutes, seconds);
-        timeText.text = "Week: " + Timer + "/4";
+        timeText.text = "Week: " + Timer + "/" + MaxTime;
         if (Timer / MaxTime * 100 <= changeToRedAt)
             timeBar.GetComponent<Image>().sprite = time_red;
         else if (Timer / MaxTime * 100 > changeToRedAt && Timer / MaxTime * 100 <= changeToOrangeAt)
@@ -64,6 +64,15 @@ public class Boss_TimeManager : MonoBehaviour {
 
     public void NextWeek()
     {
-        
+        if (Timer >= MaxTime)
+        {
+            Boss_GameManager.instance.ShowGameEnd_TimeUp(true);
+        }
+        else
+        {
+            Timer++;
+            StaffManager.instance.DoWork();
+            TimerChange();
+        }
     }
 }

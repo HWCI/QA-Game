@@ -15,6 +15,13 @@ public class Boss_GameManager : MonoBehaviour {
     [SerializeField]
     GameObject option;
     public Boss_energyManager energyManager;
+    public int workmultiplier = 5;
+
+    public int score;
+
+    public bool ACompleted = true;
+    public bool BCompleted = true;
+    public bool CCompleted = true;
     //Awake is always called before any Start functions
     void Awake()
     {
@@ -94,7 +101,10 @@ public class Boss_GameManager : MonoBehaviour {
         if (curGameStatus == InvestigativeGameStatus.Started)
         {
             TM.canUpdate = true;
-
+            if (ACompleted && BCompleted && CCompleted)
+            {
+                ShowGameEnd_Finish(true);
+            }
         }
         else
         {
@@ -257,7 +267,12 @@ public class Boss_GameManager : MonoBehaviour {
             uiManager.GamePage_TimesUp.SetActive(isOpen);
 
             //InvestigativeSoundManager.instance.PlayTimesUp();
-            curGameStatus = InvestigativeGameStatus.End;
+            //curGameStatus = InvestigativeGameStatus.End;
+            uiManager.TimeScore.text = score.ToString();
+            int penalty = WorkManager.instance.GetPenalty();
+            uiManager.TimePenalty.text = penalty.ToString();
+            int total = (score - penalty);
+            uiManager.TimeTotal.text =  total.ToString();
             Invoke("ShowNextPaga_btn", 1);
         }
         else
@@ -275,7 +290,8 @@ public class Boss_GameManager : MonoBehaviour {
             //WinGame;
             uiManager.GamePage_Finish.SetActive(isOpen);
             //InvestigativeSoundManager.instance.PlayFinish();
-            curGameStatus = InvestigativeGameStatus.End;
+            //curGameStatus = InvestigativeGameStatus.End;
+            uiManager.Score.text = score.ToString();
             Invoke("ShowNextPaga_btn", 1);
         }
         else
@@ -309,12 +325,12 @@ public class Boss_GameManager : MonoBehaviour {
         if (isOpen )//&& !uiManager.GamePage_GameOver.active
         {
 
-            Boss_SoundManager.instance.PlayNoEnergy();
+            //Boss_SoundManager.instance.PlayNoEnergy();
             //GameEnd;
             uiManager.GamePage_GameOver.SetActive(true);
 
             //InvestigativeSoundManager.instance.PlayTimesUp();
-            curGameStatus = InvestigativeGameStatus.End;
+            //curGameStatus = InvestigativeGameStatus.End;
             Invoke("ShowNextPaga_btn", 1);
         }
         else
@@ -340,6 +356,11 @@ public class Boss_GameManager : MonoBehaviour {
         {
             Debug.Log("No Scene?");
         }
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void QuitGame()

@@ -26,7 +26,15 @@ public class Candid : MonoBehaviour
             P_value = ran_P;
             T_value = ran_T;
 
-            stat.text = "D:" + A_value + " P:" + P_value + " T:" + T_value;
+            if (ran_A + ran_T + ran_P < 12)
+            {
+                Get_Value();
+            }
+            else
+            {
+
+                stat.text = "D:" + A_value + " P:" + P_value + " T:" + T_value;
+            }
     }
 
     public void Selected()

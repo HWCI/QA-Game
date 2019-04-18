@@ -26,4 +26,12 @@ public class StaffManager : MonoBehaviour
          uiworker[i].Refresh();
          i++;
     }
+
+    public void DoWork()
+    {
+        foreach (var worker in uiworker)
+        {
+            worker.Work();
+        }
+    }
 }
