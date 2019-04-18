@@ -44,15 +44,19 @@ public class Work : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUp
     public void WorkedOn(float amount)
     {
         Completion += amount;
-        int ran = Random.Range(0, 100);
-        if (ran > 75 && ran > amount)
-        {
-            Defect();
-        }
+        
+
         if (Completion >= 100)
         {
             Completed();
         }
+        else
+         {int ran = Random.Range(0, 100);
+             if (ran > 70+amount*0.2)
+                     {
+                         Defect();
+                     }
+         }
     }
     
     public void OnDrag(PointerEventData eventData)

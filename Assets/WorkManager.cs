@@ -102,12 +102,27 @@ public class WorkManager : MonoBehaviour
             if (job == Job.JobType.A)
             {
                 ADJ--;
+                if (ADJ == 0 && APJ == 0 && ATJ == 0)
+                {
+                    Boss_GameManager.instance.ACompleted = true;
+                    Boss_GameManager.instance.score += AJ * 100;
+                }
             }if (job == Job.JobType.B)
             {
                 BDJ--;
+                if (BDJ == 0 && BPJ == 0 && BTJ == 0)
+                {
+                    Boss_GameManager.instance.BCompleted = true;
+                    Boss_GameManager.instance.score += BJ * 100;
+                }
             }if (job == Job.JobType.C)
             {
                 CDJ--;
+                if (CDJ == 0 && CPJ == 0 && CTJ == 0)
+                {
+                    Boss_GameManager.instance.CCompleted = true;
+                    Boss_GameManager.instance.score += CJ * 100;
+                }
             }
         }
         if (workt == WorkType.Programming)
@@ -115,12 +130,27 @@ public class WorkManager : MonoBehaviour
             if (job == Job.JobType.A)
             {
                 APJ--;
+                if (ADJ == 0 && APJ == 0 && ATJ == 0)
+                {
+                    Boss_GameManager.instance.ACompleted = true;
+                    Boss_GameManager.instance.score += AJ * 100;
+                }
             }if (job == Job.JobType.B)
             {
                 BPJ--;
+                if (BDJ == 0 && BPJ == 0 && BTJ == 0)
+                {
+                    Boss_GameManager.instance.BCompleted = true;
+                    Boss_GameManager.instance.score += BJ * 100;
+                }
             }if (job == Job.JobType.C)
             {
                 CPJ--;
+                if (CDJ == 0 && CPJ == 0 && CTJ == 0)
+                {
+                    Boss_GameManager.instance.CCompleted = true;
+                    Boss_GameManager.instance.score += CJ * 100;
+                }
             }
         }
         if (workt == WorkType.Testing)
@@ -128,28 +158,33 @@ public class WorkManager : MonoBehaviour
             if (job == Job.JobType.A)
             {
                 ATJ--;
+                if (ADJ == 0 && APJ == 0 && ATJ == 0)
+                {
+                    Boss_GameManager.instance.ACompleted = true;
+                    Boss_GameManager.instance.score += AJ * 100;
+                    Boss_GameManager.instance.CheckVictory();
+                }
             }if (job == Job.JobType.B)
             {
                 BTJ--;
+                if (BDJ == 0 && BPJ == 0 && BTJ == 0)
+                {
+                    Boss_GameManager.instance.BCompleted = true;
+                    Boss_GameManager.instance.score += BJ * 100;
+                    Boss_GameManager.instance.CheckVictory();
+                }
             }if (job == Job.JobType.C)
             {
                 CTJ--;
+                if (CDJ == 0 && CPJ == 0 && CTJ == 0)
+                {
+                    Boss_GameManager.instance.CCompleted = true;
+                    Boss_GameManager.instance.score += CJ * 100;
+                    Boss_GameManager.instance.CheckVictory();
+                }
             }
         }
 
-        if (ADJ == 0 && APJ == 0 && ATJ == 0)
-        {
-            Boss_GameManager.instance.ACompleted = true;
-            Boss_GameManager.instance.score += AJ * 100;
-        } if (BDJ == 0 && BPJ == 0 && BTJ == 0)
-        {
-            Boss_GameManager.instance.BCompleted = true;
-            Boss_GameManager.instance.score += BJ * 100;
-        } if (CDJ == 0 && CPJ == 0 && CTJ == 0)
-        {
-            Boss_GameManager.instance.CCompleted = true;
-            Boss_GameManager.instance.score += CJ * 100;
-        }
     }
 
     public int GetPenalty()

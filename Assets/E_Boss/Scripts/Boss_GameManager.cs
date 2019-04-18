@@ -101,15 +101,20 @@ public class Boss_GameManager : MonoBehaviour {
         if (curGameStatus == InvestigativeGameStatus.Started)
         {
             TM.canUpdate = true;
-            if (ACompleted && BCompleted && CCompleted)
-            {
-                ShowGameEnd_Finish(true);
-            }
+            
         }
         else
         {
             TM.canUpdate = false;
         }
+    }
+
+    public void CheckVictory()
+    {
+        if (ACompleted && BCompleted && CCompleted)
+                    {
+                        ShowGameEnd_Finish(true);
+                    }
     }
 
     public void NextQusetion()
